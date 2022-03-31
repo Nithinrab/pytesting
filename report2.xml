@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="3" tests="12" time="0.151" timestamp="2022-03-30T20:49:02.583751" hostname="DESKTOP-45SMTEL"><testcase classname="test_all" name="test_amstr[153-True]" time="0.002" /><testcase classname="test_all" name="test_amstr[370-True]" time="0.001" /><testcase classname="test_all" name="test_amstr[463-False]" time="0.001" /><testcase classname="test_all" name="test_amstr[43-True]" time="0.003"><failure message="assert False == True">a = 43, b = True
+
+    @pytest.mark.parametrize("a,b",[(153,True),(370,True),(463,False),(43,True)])
+    def test_amstr(a,b):
+        r = all.amstt(a)
+&gt;       assert r == b
+E       assert False == True
+
+test_all.py:7: AssertionError</failure></testcase><testcase classname="test_all" name="test_div[16-True]" time="0.001"><skipped type="pytest.skip" message="unconditional skip">C:\Users\Nithin\PycharmProjects\assignment 29th\test_all.py:9: unconditional skip</skipped></testcase><testcase classname="test_all" name="test_div[402-True]" time="0.001"><skipped type="pytest.skip" message="unconditional skip">C:\Users\Nithin\PycharmProjects\assignment 29th\test_all.py:9: unconditional skip</skipped></testcase><testcase classname="test_all" name="test_small[3-1-2-1]" time="0.001" /><testcase classname="test_all" name="test_small[40-30-70-30]" time="0.001" /><testcase classname="test_all" name="test_eo[2-Even]" time="0.001" /><testcase classname="test_all" name="test_eo[3-Odd]" time="0.001" /><testcase classname="test_all" name="test_pal[121-True]" time="0.001" /><testcase classname="test_all" name="test_pal[42222-True]" time="0.001"><skipped type="pytest.xfail" message="" /></testcase></testsuite></testsuites>
